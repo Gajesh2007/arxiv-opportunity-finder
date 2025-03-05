@@ -596,6 +596,27 @@ class Database:
                     except json.JSONDecodeError:
                         # If JSON parsing fails, continue with existing data
                         pass
+                
+                # Map legacy field names to what the UI expects
+                if 'combined_score' in opportunity and not opportunity.get('overall_score'):
+                    opportunity['overall_score'] = opportunity.get('combined_score')
+                if 'poc_potential_score' in opportunity and not opportunity.get('market_potential_score'):
+                    opportunity['market_potential_score'] = opportunity.get('poc_potential_score')
+                if 'wow_factor_score' in opportunity and not opportunity.get('impact_score'):
+                    opportunity['impact_score'] = opportunity.get('wow_factor_score')
+                
+                # Calculate overall_score if it's still missing
+                if not opportunity.get('overall_score'):
+                    tech_score = opportunity.get('technical_feasibility_score', 0) or 0
+                    market_score = opportunity.get('market_potential_score', 0) or 0
+                    impact_score = opportunity.get('impact_score', 0) or 0
+                    
+                    # Calculate average of available scores
+                    available_scores = [s for s in [tech_score, market_score, impact_score] if s > 0]
+                    if available_scores:
+                        opportunity['overall_score'] = sum(available_scores) / len(available_scores)
+                    else:
+                        opportunity['overall_score'] = 0
                         
                 opportunities.append(opportunity)
             
