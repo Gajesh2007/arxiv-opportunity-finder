@@ -1,0 +1,304 @@
+{
+  "queue": [
+    {
+      "paper_id": "2502.21309v1",
+      "title": "FANformer: Improving Large Language Models Through Effective Periodicity Modeling",
+      "authors": [
+        "Yihong Dong",
+        "Ge Li",
+        "Xue Jiang",
+        "Yongding Tao",
+        "Kechi Zhang",
+        "Hao Zhu",
+        "Huanyu Liu",
+        "Jiazheng Ding",
+        "Jia Li",
+        "Jinliang Deng",
+        "Hong Mei"
+      ],
+      "author_str": "Yihong Dong, Ge Li, Xue Jiang, Yongding Tao, Kechi Zhang, Hao Zhu, Huanyu Liu, Jiazheng Ding, Jia Li, Jinliang Deng, Hong Mei",
+      "abstract": "Periodicity, as one of the most important basic characteristics, lays the\nfoundation for facilitating structured knowledge acquisition and systematic\ncognitive processes within human learning paradigms. However, the potential\nflaws of periodicity modeling in Transformer affect the learning efficiency and\nestablishment of underlying principles from data for large language models\n(LLMs) built upon it. In this paper, we demonstrate that integrating effective\nperiodicity modeling can improve the learning efficiency and performance of\nLLMs. We introduce FANformer, which integrates Fourier Analysis Network (FAN)\ninto attention mechanism to achieve efficient periodicity modeling, by\nmodifying the feature projection process of attention mechanism. Extensive\nexperimental results on language modeling show that FANformer consistently\noutperforms Transformer when scaling up model size and training tokens,\nunderscoring its superior learning efficiency. To further validate the\neffectiveness of FANformer, we pretrain a FANformer-1B on 1 trillion tokens.\nFANformer-1B exhibits marked improvements on downstream tasks compared to\nopen-source LLMs with similar model parameters or training tokens. The results\nposition FANformer as an effective and promising architecture for advancing\nLLMs.",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "http://arxiv.org/pdf/2502.21309v1",
+      "entry_id": "http://arxiv.org/abs/2502.21309v1",
+      "published": "2025-02-28T18:52:24+00:00",
+      "updated": "2025-02-28T18:52:24+00:00",
+      "comment": null,
+      "journal_ref": null,
+      "doi": null
+    },
+    {
+      "paper_id": "2502.21304v1",
+      "title": "Clustering Context in Off-Policy Evaluation",
+      "authors": [
+        "Daniel Guzman-Olivares",
+        "Philipp Schmidt",
+        "Jacek Golebiowski",
+        "Artur Bekasov"
+      ],
+      "author_str": "Daniel Guzman-Olivares, Philipp Schmidt, Jacek Golebiowski, Artur Bekasov",
+      "abstract": "Off-policy evaluation can leverage logged data to estimate the effectiveness\nof new policies in e-commerce, search engines, media streaming services, or\nautomatic diagnostic tools in healthcare. However, the performance of baseline\noff-policy estimators like IPS deteriorates when the logging policy\nsignificantly differs from the evaluation policy. Recent work proposes sharing\ninformation across similar actions to mitigate this problem. In this work, we\npropose an alternative estimator that shares information across similar\ncontexts using clustering. We study the theoretical properties of the proposed\nestimator, characterizing its bias and variance under different conditions. We\nalso compare the performance of the proposed estimator and existing approaches\nin various synthetic problems, as well as a real-world recommendation dataset.\nOur experimental results confirm that clustering contexts improves estimation\naccuracy, especially in deficient information settings.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2502.21304v1",
+      "entry_id": "http://arxiv.org/abs/2502.21304v1",
+      "published": "2025-02-28T18:40:41+00:00",
+      "updated": "2025-02-28T18:40:41+00:00",
+      "comment": "35 pages, 25 figures, 2 tables. AISTATS 2025",
+      "journal_ref": null,
+      "doi": null
+    },
+    {
+      "paper_id": "2502.21290v1",
+      "title": "Contextualizing biological perturbation experiments through language",
+      "authors": [
+        "Menghua Wu",
+        "Russell Littman",
+        "Jacob Levine",
+        "Lin Qiu",
+        "Tommaso Biancalani",
+        "David Richmond",
+        "Jan-Christian Huetter"
+      ],
+      "author_str": "Menghua Wu, Russell Littman, Jacob Levine, Lin Qiu, Tommaso Biancalani, David Richmond, Jan-Christian Huetter",
+      "abstract": "High-content perturbation experiments allow scientists to probe biomolecular\nsystems at unprecedented resolution, but experimental and analysis costs pose\nsignificant barriers to widespread adoption. Machine learning has the potential\nto guide efficient exploration of the perturbation space and extract novel\ninsights from these data. However, current approaches neglect the semantic\nrichness of the relevant biology, and their objectives are misaligned with\ndownstream biological analyses. In this paper, we hypothesize that large\nlanguage models (LLMs) present a natural medium for representing complex\nbiological relationships and rationalizing experimental outcomes. We propose\nPerturbQA, a benchmark for structured reasoning over perturbation experiments.\nUnlike current benchmarks that primarily interrogate existing knowledge,\nPerturbQA is inspired by open problems in perturbation modeling: prediction of\ndifferential expression and change of direction for unseen perturbations, and\ngene set enrichment. We evaluate state-of-the-art machine learning and\nstatistical approaches for modeling perturbations, as well as standard LLM\nreasoning strategies, and we find that current methods perform poorly on\nPerturbQA. As a proof of feasibility, we introduce Summer (SUMMarize, retrievE,\nand answeR, a simple, domain-informed LLM framework that matches or exceeds the\ncurrent state-of-the-art. Our code and data are publicly available at\nhttps://github.com/genentech/PerturbQA.",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "http://arxiv.org/pdf/2502.21290v1",
+      "entry_id": "http://arxiv.org/abs/2502.21290v1",
+      "published": "2025-02-28T18:15:31+00:00",
+      "updated": "2025-02-28T18:15:31+00:00",
+      "comment": "The Thirteenth International Conference on Learning Representations\n  (2025)",
+      "journal_ref": null,
+      "doi": null
+    },
+    {
+      "paper_id": "2502.21279v1",
+      "title": "L-Lipschitz Gershgorin ResNet Network",
+      "authors": [
+        "Marius F. R. Juston",
+        "William R. Norris",
+        "Dustin Nottage",
+        "Ahmet Soylemezoglu"
+      ],
+      "author_str": "Marius F. R. Juston, William R. Norris, Dustin Nottage, Ahmet Soylemezoglu",
+      "abstract": "Deep residual networks (ResNets) have demonstrated outstanding success in\ncomputer vision tasks, attributed to their ability to maintain gradient flow\nthrough deep architectures. Simultaneously, controlling the Lipschitz bound in\nneural networks has emerged as an essential area of research for enhancing\nadversarial robustness and network certifiability. This paper uses a rigorous\napproach to design $\\mathcal{L}$-Lipschitz deep residual networks using a\nLinear Matrix Inequality (LMI) framework. The ResNet architecture was\nreformulated as a pseudo-tri-diagonal LMI with off-diagonal elements and\nderived closed-form constraints on network parameters to ensure\n$\\mathcal{L}$-Lipschitz continuity. To address the lack of explicit eigenvalue\ncomputations for such matrix structures, the Gershgorin circle theorem was\nemployed to approximate eigenvalue locations, guaranteeing the LMI's negative\nsemi-definiteness. Our contributions include a provable parameterization\nmethodology for constructing Lipschitz-constrained networks and a compositional\nframework for managing recursive systems within hierarchical architectures.\nThese findings enable robust network designs applicable to adversarial\nrobustness, certified training, and control systems. However, a limitation was\nidentified in the Gershgorin-based approximations, which over-constrain the\nsystem, suppressing non-linear dynamics and diminishing the network's\nexpressive capacity.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2502.21279v1",
+      "entry_id": "http://arxiv.org/abs/2502.21279v1",
+      "published": "2025-02-28T17:57:57+00:00",
+      "updated": "2025-02-28T17:57:57+00:00",
+      "comment": "10 pages, 6 figures",
+      "journal_ref": null,
+      "doi": null
+    },
+    {
+      "paper_id": "2502.21274v1",
+      "title": "BAnG: Bidirectional Anchored Generation for Conditional RNA Design",
+      "authors": [
+        "Roman Klypa",
+        "Alberto Bietti",
+        "Sergei Grudinin"
+      ],
+      "author_str": "Roman Klypa, Alberto Bietti, Sergei Grudinin",
+      "abstract": "Designing RNA molecules that interact with specific proteins is a critical\nchallenge in experimental and computational biology. Existing computational\napproaches require a substantial amount of experimentally determined RNA\nsequences for each specific protein or a detailed knowledge of RNA structure,\nrestricting their utility in practice. To address this limitation, we develop\nRNA-BAnG, a deep learning-based model designed to generate RNA sequences for\nprotein interactions without these requirements. Central to our approach is a\nnovel generative method, Bidirectional Anchored Generation (BAnG), which\nleverages the observation that protein-binding RNA sequences often contain\nfunctional binding motifs embedded within broader sequence contexts. We first\nvalidate our method on generic synthetic tasks involving similar localized\nmotifs to those appearing in RNAs, demonstrating its benefits over existing\ngenerative approaches. We then evaluate our model on biological sequences,\nshowing its effectiveness for conditional RNA sequence design given a binding\nprotein.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.BM"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2502.21274v1",
+      "entry_id": "http://arxiv.org/abs/2502.21274v1",
+      "published": "2025-02-28T17:51:00+00:00",
+      "updated": "2025-02-28T17:51:00+00:00",
+      "comment": null,
+      "journal_ref": null,
+      "doi": null
+    },
+    {
+      "paper_id": "2502.21271v1",
+      "title": "Adaptive Keyframe Sampling for Long Video Understanding",
+      "authors": [
+        "Xi Tang",
+        "Jihao Qiu",
+        "Lingxi Xie",
+        "Yunjie Tian",
+        "Jianbin Jiao",
+        "Qixiang Ye"
+      ],
+      "author_str": "Xi Tang, Jihao Qiu, Lingxi Xie, Yunjie Tian, Jianbin Jiao, Qixiang Ye",
+      "abstract": "Multimodal large language models (MLLMs) have enabled open-world visual\nunderstanding by injecting visual input as extra tokens into large language\nmodels (LLMs) as contexts. However, when the visual input changes from a single\nimage to a long video, the above paradigm encounters difficulty because the\nvast amount of video tokens has significantly exceeded the maximal capacity of\nMLLMs. Therefore, existing video-based MLLMs are mostly established upon\nsampling a small portion of tokens from input data, which can cause key\ninformation to be lost and thus produce incorrect answers. This paper presents\na simple yet effective algorithm named Adaptive Keyframe Sampling (AKS). It\ninserts a plug-and-play module known as keyframe selection, which aims to\nmaximize the useful information with a fixed number of video tokens. We\nformulate keyframe selection as an optimization involving (1) the relevance\nbetween the keyframes and the prompt, and (2) the coverage of the keyframes\nover the video, and present an adaptive algorithm to approximate the best\nsolution. Experiments on two long video understanding benchmarks validate that\nAdaptive Keyframe Sampling improves video QA accuracy (beyond strong baselines)\nupon selecting informative keyframes. Our study reveals the importance of\ninformation pre-filtering in video-based MLLMs. Code is available at\nhttps://github.com/ncTimTang/AKS.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2502.21271v1",
+      "entry_id": "http://arxiv.org/abs/2502.21271v1",
+      "published": "2025-02-28T17:46:29+00:00",
+      "updated": "2025-02-28T17:46:29+00:00",
+      "comment": "CVPR2025",
+      "journal_ref": null,
+      "doi": null
+    },
+    {
+      "paper_id": "2502.21266v1",
+      "title": "Supporting the development of Machine Learning for fundamental science in a federated Cloud with the AI_INFN platform",
+      "authors": [
+        "Lucio Anderlini",
+        "Matteo Barbetti",
+        "Giulio Bianchini",
+        "Diego Ciangottini",
+        "Stefano Dal Pra",
+        "Diego Michelotto",
+        "Carmelo Pellegrino",
+        "Rosa Petrini",
+        "Alessandro Pascolini",
+        "Daniele Spiga"
+      ],
+      "author_str": "Lucio Anderlini, Matteo Barbetti, Giulio Bianchini, Diego Ciangottini, Stefano Dal Pra, Diego Michelotto, Carmelo Pellegrino, Rosa Petrini, Alessandro Pascolini, Daniele Spiga",
+      "abstract": "Machine Learning (ML) is driving a revolution in the way scientists design,\ndevelop, and deploy data-intensive software. However, the adoption of ML\npresents new challenges for the computing infrastructure, particularly in terms\nof provisioning and orchestrating access to hardware accelerators for\ndevelopment, testing, and production. The INFN-funded project AI_INFN\n(\"Artificial Intelligence at INFN\") aims at fostering the adoption of ML\ntechniques within INFN use cases by providing support on multiple aspects,\nincluding the provision of AI-tailored computing resources. It leverages\ncloud-native solutions in the context of INFN Cloud, to share hardware\naccelerators as effectively as possible, ensuring the diversity of the\nInstitute's research activities is not compromised. In this contribution, we\nprovide an update on the commissioning of a Kubernetes platform designed to\nease the development of GPU-powered data analysis workflows and their\nscalability on heterogeneous, distributed computing resources, possibly\nfederated as Virtual Kubelets with the interLink provider.",
+      "categories": [
+        "cs.DC",
+        "cs.AI",
+        "physics.data-an"
+      ],
+      "primary_category": "cs.DC",
+      "pdf_url": "http://arxiv.org/pdf/2502.21266v1",
+      "entry_id": "http://arxiv.org/abs/2502.21266v1",
+      "published": "2025-02-28T17:42:58+00:00",
+      "updated": "2025-02-28T17:42:58+00:00",
+      "comment": "Under review in EPJ Web of Conferences (CHEP 2024)",
+      "journal_ref": null,
+      "doi": null
+    },
+    {
+      "paper_id": "2502.21267v1",
+      "title": "ReaLJam: Real-Time Human-AI Music Jamming with Reinforcement Learning-Tuned Transformers",
+      "authors": [
+        "Alexander Scarlatos",
+        "Yusong Wu",
+        "Ian Simon",
+        "Adam Roberts",
+        "Tim Cooijmans",
+        "Natasha Jaques",
+        "Cassie Tarakajian",
+        "Cheng-Zhi Anna Huang"
+      ],
+      "author_str": "Alexander Scarlatos, Yusong Wu, Ian Simon, Adam Roberts, Tim Cooijmans, Natasha Jaques, Cassie Tarakajian, Cheng-Zhi Anna Huang",
+      "abstract": "Recent advances in generative artificial intelligence (AI) have created\nmodels capable of high-quality musical content generation. However, little\nconsideration is given to how to use these models for real-time or cooperative\njamming musical applications because of crucial required features: low latency,\nthe ability to communicate planned actions, and the ability to adapt to user\ninput in real-time. To support these needs, we introduce ReaLJam, an interface\nand protocol for live musical jamming sessions between a human and a\nTransformer-based AI agent trained with reinforcement learning. We enable\nreal-time interactions using the concept of anticipation, where the agent\ncontinually predicts how the performance will unfold and visually conveys its\nplan to the user. We conduct a user study where experienced musicians jam in\nreal-time with the agent through ReaLJam. Our results demonstrate that ReaLJam\nenables enjoyable and musically interesting sessions, and we uncover important\ntakeaways for future work.",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "primary_category": "cs.HC",
+      "pdf_url": "http://arxiv.org/pdf/2502.21267v1",
+      "entry_id": "http://arxiv.org/abs/2502.21267v1",
+      "published": "2025-02-28T17:42:58+00:00",
+      "updated": "2025-02-28T17:42:58+00:00",
+      "comment": "Published in Extended Abstracts of the CHI Conference on Human\n  Factors in Computing Systems (CHI EA '25), April 26-May 1, 2025, Yokohama,\n  Japan",
+      "journal_ref": null,
+      "doi": null
+    },
+    {
+      "paper_id": "2502.21264v2",
+      "title": "Foundation Models -- A Panacea for Artificial Intelligence in Pathology?",
+      "authors": [
+        "Nita Mulliqi",
+        "Anders Blilie",
+        "Xiaoyi Ji",
+        "Kelvin Szolnoky",
+        "Henrik Olsson",
+        "Sol Erika Boman",
+        "Matteo Titus",
+        "Geraldine Martinez Gonzalez",
+        "Julia Anna Mielcarz",
+        "Masi Valkonen",
+        "Einar Gudlaugsson",
+        "Svein R. Kjosavik",
+        "Jos\u00e9 Asenjo",
+        "Marcello Gambacorta",
+        "Paolo Libretti",
+        "Marcin Braun",
+        "Radzislaw Kordek",
+        "Roman \u0141owicki",
+        "Kristina Hotakainen",
+        "P\u00e4ivi V\u00e4re",
+        "Bodil Ginnerup Pedersen",
+        "Karina Dalsgaard S\u00f8rensen",
+        "Benedicte Parm Ulh\u00f8i",
+        "Pekka Ruusuvuori",
+        "Brett Delahunt",
+        "Hemamali Samaratunga",
+        "Toyonori Tsuzuki",
+        "Emilius A. M. Janssen",
+        "Lars Egevad",
+        "Martin Eklund",
+        "Kimmo Kartasalo"
+      ],
+      "author_str": "Nita Mulliqi, Anders Blilie, Xiaoyi Ji, Kelvin Szolnoky, Henrik Olsson, Sol Erika Boman, Matteo Titus, Geraldine Martinez Gonzalez, Julia Anna Mielcarz, Masi Valkonen, Einar Gudlaugsson, Svein R. Kjosavik, Jos\u00e9 Asenjo, Marcello Gambacorta, Paolo Libretti, Marcin Braun, Radzislaw Kordek, Roman \u0141owicki, Kristina Hotakainen, P\u00e4ivi V\u00e4re, Bodil Ginnerup Pedersen, Karina Dalsgaard S\u00f8rensen, Benedicte Parm Ulh\u00f8i, Pekka Ruusuvuori, Brett Delahunt, Hemamali Samaratunga, Toyonori Tsuzuki, Emilius A. M. Janssen, Lars Egevad, Martin Eklund, Kimmo Kartasalo",
+      "abstract": "The role of artificial intelligence (AI) in pathology has evolved from aiding\ndiagnostics to uncovering predictive morphological patterns in whole slide\nimages (WSIs). Recently, foundation models (FMs) leveraging self-supervised\npre-training have been widely advocated as a universal solution for diverse\ndownstream tasks. However, open questions remain about their clinical\napplicability and generalization advantages over end-to-end learning using\ntask-specific (TS) models. Here, we focused on AI with clinical-grade\nperformance for prostate cancer diagnosis and Gleason grading. We present the\nlargest validation of AI for this task, using over 100,000 core needle biopsies\nfrom 7,342 patients across 15 sites in 11 countries. We compared two FMs with a\nfully end-to-end TS model in a multiple instance learning framework. Our\nfindings challenge assumptions that FMs universally outperform TS models. While\nFMs demonstrated utility in data-scarce scenarios, their performance converged\nwith - and was in some cases surpassed by - TS models when sufficient labeled\ntraining data were available. Notably, extensive task-specific training\nmarkedly reduced clinically significant misgrading, misdiagnosis of challenging\nmorphologies, and variability across different WSI scanners. Additionally, FMs\nused up to 35 times more energy than the TS model, raising concerns about their\nsustainability. Our results underscore that while FMs offer clear advantages\nfor rapid prototyping and research, their role as a universal solution for\nclinically applicable medical AI remains uncertain. For high-stakes clinical\napplications, rigorous validation and consideration of task-specific training\nremain critically important. We advocate for integrating the strengths of FMs\nand end-to-end learning to achieve robust and resource-efficient AI pathology\nsolutions fit for clinical use.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2502.21264v2",
+      "entry_id": "http://arxiv.org/abs/2502.21264v2",
+      "published": "2025-02-28T17:40:45+00:00",
+      "updated": "2025-03-03T10:35:23+00:00",
+      "comment": "50 pages, 15 figures and an appendix (study protocol) which is\n  previously published, see https://doi.org/10.1101/2024.07.04.24309948;\n  updated authors list format",
+      "journal_ref": null,
+      "doi": null
+    },
+    {
+      "paper_id": "2502.21263v1",
+      "title": "RuCCoD: Towards Automated ICD Coding in Russian",
+      "authors": [
+        "Aleksandr Nesterov",
+        "Andrey Sakhovskiy",
+        "Ivan Sviridov",
+        "Airat Valiev",
+        "Vladimir Makharev",
+        "Petr Anokhin",
+        "Galina Zubkova",
+        "Elena Tutubalina"
+      ],
+      "author_str": "Aleksandr Nesterov, Andrey Sakhovskiy, Ivan Sviridov, Airat Valiev, Vladimir Makharev, Petr Anokhin, Galina Zubkova, Elena Tutubalina",
+      "abstract": "This study investigates the feasibility of automating clinical coding in\nRussian, a language with limited biomedical resources. We present a new dataset\nfor ICD coding, which includes diagnosis fields from electronic health records\n(EHRs) annotated with over 10,000 entities and more than 1,500 unique ICD\ncodes. This dataset serves as a benchmark for several state-of-the-art models,\nincluding BERT, LLaMA with LoRA, and RAG, with additional experiments examining\ntransfer learning across domains (from PubMed abstracts to medical diagnosis)\nand terminologies (from UMLS concepts to ICD codes). We then apply the\nbest-performing model to label an in-house EHR dataset containing patient\nhistories from 2017 to 2021. Our experiments, conducted on a carefully curated\ntest set, demonstrate that training with the automated predicted codes leads to\na significant improvement in accuracy compared to manually annotated data from\nphysicians. We believe our findings offer valuable insights into the potential\nfor automating clinical coding in resource-limited languages like Russian,\nwhich could enhance clinical efficiency and data accuracy in these contexts.",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.DB"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "http://arxiv.org/pdf/2502.21263v1",
+      "entry_id": "http://arxiv.org/abs/2502.21263v1",
+      "published": "2025-02-28T17:40:24+00:00",
+      "updated": "2025-02-28T17:40:24+00:00",
+      "comment": null,
+      "journal_ref": null,
+      "doi": null
+    }
+  ],
+  "processed_ids": []
+}

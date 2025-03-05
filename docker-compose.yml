@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    command: python -m src.pipeline
+    restart: unless-stopped
+
+  daily:
+    build: .
+    volumes:
+      - ./data:/app/data
+    env_file:
+      - .env
+    command: python -m scripts.daily_run
+    restart: no 
